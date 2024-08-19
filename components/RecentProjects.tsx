@@ -3,6 +3,7 @@ import { projects } from '@/data';
 import React from 'react';
 import { PinContainer } from './ui/3d-pin';
 import { FaLocationArrow } from 'react-icons/fa';
+import ClientPinContainer from './ui/ClientPinContainer';
 
 function RecentProjects() {
   return (
@@ -17,7 +18,7 @@ function RecentProjects() {
             key={id}
             className='sm:h-[41rem] h-[32-rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-[570px] w-[80vw]'
           >
-            <PinContainer title={link} href={link}>
+            <ClientPinContainer title={link} href={link}>
               <div className='relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden sm:h-[40vh] h-[30vh]'>
                 <div className='relative w-full  h-full overflow-hidden lg:rounded-3xl bg-[#13162d]'>
                   <img src='/bg.png' alt='bg-img' />
@@ -59,7 +60,7 @@ function RecentProjects() {
                   <FaLocationArrow className='ms-3' color='#CBACF9' />
                 </div>
               </div>
-            </PinContainer>
+            </ClientPinContainer>
           </div>
         ))}
       </div>
