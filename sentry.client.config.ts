@@ -25,9 +25,5 @@ Sentry.init({
       maskAllText: false,
       blockAllMedia: false,
     }),
-    Sentry.feedbackIntegration({
-      // Additional SDK configuration goes in here, for example:
-      colorScheme: "dark",
-    }),
   ],
 });
