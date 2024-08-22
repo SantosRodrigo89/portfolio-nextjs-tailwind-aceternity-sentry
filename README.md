@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Meu Portfólio em Next.js
 
-## Getting Started
+Este é o meu projeto de portfólio pessoal desenvolvido com Next.js, destacando meus trabalhos recentes e habilidades técnicas.
 
-First, run the development server:
+## Versão Online
 
-```bash
+Você pode acessar a versão online do meu portfólio em: [https://rodrigo-v-dev.web.app/](https://rodrigo-v-dev.web.app/)
+
+## Características
+
+- Design responsivo para desktop e dispositivos móveis
+- Exibição de projetos recentes com imagens e descrições
+- Integração de ícones para tecnologias utilizadas
+- Links para repositórios de projetos
+
+## Tecnologias Utilizadas
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Firebase (para implantação)
+
+## Implantação
+
+Este projeto está hospedado no Firebase. O Firebase foi escolhido pela sua facilidade de uso e integração com projetos Next.js.
+
+## Como Iniciar
+
+Para rodar o projeto localmente:
+
+1. Clone o repositório
+2. Instale as dependências com `npm install`
+3. Inicie o servidor de desenvolvimento:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Estrutura do Projeto
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+O componente `RecentProjects` em `components/RecentProjects.tsx` é responsável por exibir os projetos recentes de forma atraente e responsiva.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Personalização
 
-## Learn More
+Você pode adicionar ou modificar projetos editando o array `projects` no componente `RecentProjects`.
 
-To learn more about Next.js, take a look at the following resources:
+## Implantação
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Este projeto foi implantado utilizando o Firebase Hosting. Você pode visitar a versão online em [https://rodrigo-v-dev.web.app/](https://rodrigo-v-dev.web.app/).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Contribuições
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Sugestões e contribuições são sempre bem-vindas. Sinta-se à vontade para abrir uma issue ou enviar um pull request.
