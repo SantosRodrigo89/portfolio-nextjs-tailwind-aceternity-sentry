@@ -8,15 +8,13 @@ const Approach = () => {
   return (
     <section className='w-full py-20'>
       <h1 className='heading'>
-        My <span className='text-purple'>approach</span>
+        Meu <span className='text-purple'>processo</span>
       </h1>
       <div className='my-20 flex flex-col lg:flex-row items-center justify-center gap-4'>
         <Card
-          title='Planning & Strategy'
-          icon={<AceternityIcon order='Phase 1' />}
-          des="We'll collaborate to map out your website's goals, target audience, 
-          and key functionalities. We'll discuss things like site structure, 
-          navigation, and content requirements."
+          title='Planejamento e análise'
+          icon={<AceternityIcon order='Fase 1' />}
+          des="Levantamento de requisitos e estabelecimento de prazos junto aos stackholders do projeto."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -24,11 +22,9 @@ const Approach = () => {
           />
         </Card>
         <Card
-          title='Development & Progress Update'
-          icon={<AceternityIcon order='Phase 2' />}
-          des='Once we agree on the plan, I cue my lofi playlist and dive into
-          coding. From initial sketches to polished code, I keep you updated
-          every step of the way.'
+          title='Desenvolvimento e feedback'
+          icon={<AceternityIcon order='Fase 2' />}
+          des='Com tudo definido é hora de por uma música e começar a trabalhar. Eu sempre faço updates do progresso do projeto estabelecendo assim um laço de confiança.'
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -41,11 +37,9 @@ const Approach = () => {
           />
         </Card>
         <Card
-          title='Development & Launch'
-          icon={<AceternityIcon order='Phase 3' />}
-          des="This is where the magic happens! Based on the approved design, 
-          I'll translate everything into functional code, building your website
-          from the ground up."
+          title='Desenvolvimento e lançamento'
+          icon={<AceternityIcon order='Fase 3' />}
+          des="E finalmente, é hora de lançar o projeto e fazer um feedback com o cliente para garantir que ele esteja satisfeito com o resultado final."
         >
           <CanvasRevealEffect
             animationSpeed={3}
