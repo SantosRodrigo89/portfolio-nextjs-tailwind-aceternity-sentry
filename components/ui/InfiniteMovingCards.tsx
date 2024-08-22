@@ -12,6 +12,7 @@ export const InfiniteMovingCards = ({
   className,
 }: {
   items: {
+    img: string;
     quote: string;
     name: string;
     title: string;
@@ -106,8 +107,8 @@ export const InfiniteMovingCards = ({
               </span>
               <div className='relative z-20 mt-6 flex flex-row items-center'>
                 <span className='flex flex-col gap-1'>
-                  <div className='me-3'>
-                    <img src='/profile.svg' alt='profile' />
+                  <div className='me-3 '>
+                    <img src={item.img} alt='profile'  className="w-12 h-12 rounded-full object-cover" />
                   </div>
                   <div className='flex flex-col gap-1'>
                     <span className=' text-xl leading-[1.6] text-white font-bold'>
