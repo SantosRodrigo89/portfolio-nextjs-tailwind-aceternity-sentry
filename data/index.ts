@@ -1,8 +1,10 @@
+import { link } from "fs";
+
 export const navItems = [
-  { name: "About", link: "#about" },
-  { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
-  { name: "Contact", link: "#contact" },
+  { name: "Sobre mim", link: "#about" },
+  { name: "Projetos", link: "#projects" },
+  { name: "Feedbacks", link: "#testimonials" },
+  { name: "Contato", link: "#contact" },
 ];
 
 export const gridItems = [
@@ -49,8 +51,8 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Focado em tecnologias front-end e mobile.",
-    description: "Trabalhando em",
+    title: "Kraft Heinz Sustainable Solutions Cup.",
+    description: "Prêmiado FIAP Next",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -72,35 +74,35 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+    title: "Mentor Mate Android App",
+    des: "Projeto em Kotlin e Compose com backend Firebase, que funciona como um Tinder para conectar mentores e mentorados. Oferece matchmaking, chat em tempo real e notificações push. Seguro e privado, desenvolvido para o desafio da DB1 na FIAP.",
     img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    iconLists: ["/kotlin.svg", "/jetpack.svg", "/firebase.svg"],
+    link: "https://github.com/SantosRodrigo89/MentorMate-Kotlin",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    title: "Book Shop Backend",
+    des: "Backend desenvolvido em Node.js para uma livraria online, utilizando MongoDB e Mongoose. A aplicação é containerizada com Docker e implementada com Express. O projeto oferece funcionalidades como gerenciamento de livros, usuários, pedidos.",
     img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    iconLists: ["/node.svg", "/mongo.svg", "/js.svg"],
+    link: "https://github.com/SantosRodrigo89/bookshop-node.js-mongo-db-express-docker",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+    title: "Prometech Labs",
+    des: "Landing Page de uma empresa real, desenvolvida com Next.js. O projeto inclui rotas dinâmicas para navegação fluida, e a utilização de Server-Side Rendering (SSR) e Client-Side Rendering (CSR) para otimização da performance e experiência do usuário. Além disso, inclui a configuração de login autenticado via Auth0, garantindo segurança e controle de acesso.",
     img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    iconLists: ["/re.svg", "/next.svg", "/js.svg"],
+    link: "https://github.com/SantosRodrigo89/prometech-labs-nextjs",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    title: "Uai Food",
+    des: "Projeto final de Frontend do curso de Desenvolvimento Web Full Stack da Labenu. Trata-se de um site/app de delivery de comida inspirado no Rappi. As tecnologias utilizadas incluem JavaScript, React, CSS, boas práticas de desenvolvimento, como componentização, organização de código e responsividade.",
     img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    iconLists: ["/re.svg", "/js.svg"],
+    link: "https://github.com/SantosRodrigo89/rappi",
   },
 ];
 
@@ -205,13 +207,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/SantosRodrigo89/",
   },
-  {
-    id: 2,
-    img: "/twit.svg",
-  },
+  // {
+  //   id: 2,
+  //   img: "/cv.svg",
+  //   link: "https://drive.google.com/file/d/10V1iWlU4CTJ9Jm3KH-YeM5hR-ojB4F0u/view?usp=drivesdk",
+  // },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/rodrigo-v-b9ba696a/",
   },
 ];

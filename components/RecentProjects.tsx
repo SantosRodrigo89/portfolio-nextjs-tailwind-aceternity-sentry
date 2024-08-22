@@ -48,14 +48,14 @@ const RecentProjects = () => {
                       className='border border-white/[0.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center'
                       style={{ transform: `translateX(-${5 * index * 2}px)` }}
                     >
-                      <img src={icon} alt={icon} className='P-2' />
+                      <img src={icon} alt={icon} className='P-2 size-8' />
                     </div>
                   ))}
                 </div>
 
                 <div className='flex justify-center items-center'>
                   <p className='flex lg:text-xl md:text-xs text-sm text-purple'>
-                    Check Live Site
+                    Confira o Repositório
                   </p>
                   <FaLocationArrow className='ms-3' color='#CBACF9' />
                 </div>
