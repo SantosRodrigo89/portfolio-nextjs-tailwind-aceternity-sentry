@@ -1,7 +1,7 @@
 import { link } from "fs";
 
 export const navItems = [
-  { name: "Sobre mim", link: "#about" },
+  { name: "Sobre", link: "#about" },
   { name: "Projetos", link: "#projects" },
   { name: "Feedbacks", link: "#testimonials" },
   { name: "Contato", link: "#contact" },
@@ -76,7 +76,7 @@ export const projects = [
     id: 1,
     title: "Mentor Mate Android App",
     des: "Projeto em Kotlin e Compose com backend Firebase, que funciona como um Tinder para conectar mentores e mentorados. Oferece matchmaking, chat em tempo real e notificações push. Seguro e privado, desenvolvido para o desafio da DB1 na FIAP.",
-    img: "/p1.svg",
+    img: "/mentor.png",
     iconLists: ["/kotlin.svg", "/jetpack.svg", "/firebase.svg"],
     link: "https://github.com/SantosRodrigo89/MentorMate-Kotlin",
   },
@@ -84,7 +84,7 @@ export const projects = [
     id: 2,
     title: "Book Shop Backend",
     des: "Backend desenvolvido em Node.js para uma livraria online, utilizando MongoDB e Mongoose. A aplicação é containerizada com Docker e implementada com Express. O projeto oferece funcionalidades como gerenciamento de livros, usuários, pedidos.",
-    img: "/p2.svg",
+    img: "/bookshop.png",
     iconLists: ["/node.svg", "/mongo.svg", "/js.svg"],
     link: "https://github.com/SantosRodrigo89/bookshop-node.js-mongo-db-express-docker",
   },
@@ -92,7 +92,7 @@ export const projects = [
     id: 3,
     title: "Prometech Labs",
     des: "Landing Page de uma empresa real, desenvolvida com Next.js. O projeto inclui rotas dinâmicas para navegação fluida, e a utilização de Server-Side Rendering (SSR) e Client-Side Rendering (CSR) para otimização da performance e experiência do usuário. Além disso, inclui a configuração de login autenticado via Auth0, garantindo segurança e controle de acesso.",
-    img: "/p3.svg",
+    img: "/prometech.png",
     iconLists: ["/re.svg", "/next.svg", "/js.svg"],
     link: "https://github.com/SantosRodrigo89/prometech-labs-nextjs",
   },
@@ -100,7 +100,7 @@ export const projects = [
     id: 4,
     title: "Uai Food",
     des: "Projeto final de Frontend do curso de Desenvolvimento Web Full Stack da Labenu. Trata-se de um site/app de delivery de comida inspirado no Rappi. As tecnologias utilizadas incluem JavaScript, React, CSS, boas práticas de desenvolvimento, como componentização, organização de código e responsividade.",
-    img: "/p4.svg",
+    img: "/rappi.png",
     iconLists: ["/re.svg", "/js.svg"],
     link: "https://github.com/SantosRodrigo89/rappi",
   },
@@ -115,33 +115,12 @@ export const testimonials = [
     title: "Full Stack Developer na CDC Bank",
   },
   {
-    img: "/bruno2.jpg",
+    img: "/leo.jpeg",
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Bruno Melo",
-    title: "Full Stack Developer na CDC Bank",
-  },
-  {
-    img: "/bruno2.jpg",
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Bruno Melo",
-    title: "Full Stack Developer na CDC Bank",
-  },
-  {
-    img: "/bruno2.jpg",
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    img: "/bruno2.jpg",
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
+      "É verdade que os colaboradores são responsáveis pelo sucesso de um projeto empresarial. E enquanto estive como sócio da M3 Lending, pude constatar as capacidade de comprometimento, organização, liderança, comunicação assertiva para resultados. A atuação do profissional Rodrigo Vieira foi muito importante para a captação de novos investidores, ele teve oportunidade de criar uma carteira do zero. Tendo comprometimento exemplar ao assumir responsabilidades reportando possíveis gargalos e auxiliando no crescimento da companhia.",
+    name: "Leonardo Gabriel",
+    title: "Cofundadoor na M3 Lending",
+  }
 ];
 
 export const companies = [
