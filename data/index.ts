@@ -120,6 +120,19 @@ export const testimonials = [
       "É verdade que os colaboradores são responsáveis pelo sucesso de um projeto empresarial. E enquanto estive como sócio da M3 Lending, pude constatar as capacidade de comprometimento, organização, liderança, comunicação assertiva para resultados. A atuação do profissional Rodrigo Vieira foi muito importante para a captação de novos investidores, ele teve oportunidade de criar uma carteira do zero. Tendo comprometimento exemplar ao assumir responsabilidades reportando possíveis gargalos e auxiliando no crescimento da companhia.",
     name: "Leonardo Gabriel",
     title: "Cofundadoor na M3 Lending",
+  },
+  {
+    img: "serv.jpg",
+    quote: "Estudei com Rodrigo durante o bootcamp de 6 meses em tempo integral que fizemos na Labenu. Desde o princípio, nos conectamos por termos habilidades de comunicação semelhantes, e por isso realizamos diversos projetos juntos. O diferencial do Rodrigo não é apenas a sua capacidade de se comunicar bem eææ assumir a liderança no planejamento, mas também sua habilidade em propor soluções inovadoras para os mais diversos problemas, além de sua resiliência e persistência. Estudar e realizar os projetos do curso com o Rodrigo foi, de fato, fundamental para o meu aprendizado e aperfeiçoamento.",
+    name: "Servulo Silva",
+    title: "Full Stack Developer na Getinfo Soluções Corporativa",
+  },
+  {
+    img: "/gus.jpg",
+    quote:
+      "O Rodrigo é uma pessoa extremamente dedicada, sendo sua principal característica a curiosidade. Sempre tenta buscar formas mais eficientes de fazer as coisas, explorando e tentando novos métodos. Também é muito adaptável a diversos contextos, se moldando sempre para atender diversos tipos de demandas solicitadas a ele, entregando-as de forma muito responsável.",
+    name: "Gustavo Hiroaki Imafuku",
+    title: "Desenvolvedor de software na Minu",
   }
 ];
 
