@@ -77,7 +77,7 @@ export const projects = [
     title: "Mentor Mate Android App",
     des: "Projeto em Kotlin e Compose com backend Firebase, que funciona como um Tinder para conectar mentores e mentorados. Oferece matchmaking, chat em tempo real e notificações push. Seguro e privado, desenvolvido para o desafio da DB1 na FIAP.",
     img: "/mentor.png",
-    iconLists: ["/kotlin.svg", "/jetpack.svg", "/firebase.svg"],
+    iconLists: ["/jetpack.svg", "/firebase.svg", "/kotlin.svg", ],
     link: "https://github.com/SantosRodrigo89/MentorMate-Kotlin",
   },
   {
